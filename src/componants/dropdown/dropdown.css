@@ -1,0 +1,57 @@
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .dropdown-header {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+
+  .header-title{
+    display: flex;
+    align-items: center;
+  }
+
+
+
+  .dropdown-container:hover {
+    background-color: rgb(194, 194, 194);
+    border-radius: 8px;
+  }
+
+  .grey-circle {
+    width: 30px; /* Adjust the width and height as needed */
+    height: 30px;
+    background-color: #ccc; /* Grey color */
+    border-radius: 50%; /* Creates the circle shape */
+    margin-right: 10px;
+  }
+  
+  .dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+  
+  .dropdown-option {
+    cursor: pointer;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .dropdown-option:last-child {
+    border-bottom: none;
+  }

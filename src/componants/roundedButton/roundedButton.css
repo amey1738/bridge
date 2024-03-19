@@ -1,0 +1,17 @@
+.rounded-button {
+    background-color: #007bff; /* Blue color for the button */
+    border: none;
+    color: white;
+    height: 60px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50px; /* Rounded corners */
+  }
+  
+  .rounded-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }

@@ -1,0 +1,15 @@
+.text-field {
+    height: 50px;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .text-field:focus {
+    outline: none;
+    border-color: #919191; /* Border color on focus */
+  }
